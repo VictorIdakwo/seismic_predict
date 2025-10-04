@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2">
+  <eventParameters publicID="smi:local/a1bc1127-2756-49a7-b31d-7d51f1c8d837">
+    <event publicID="smi:local/61ba99ba-f2cf-4514-a9c9-fa971606db1e">
+      <origin publicID="smi:local/6bfbeb20-9a50-44c5-9fc5-c882730de0fe">
+        <time>
+          <value>2024-01-03T09:59:52.992000Z</value>
+        </time>
+        <latitude>
+          <value>6.86685</value>
+        </latitude>
+        <longitude>
+          <value>7.41742</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+        </depth>
+      </origin>
+    </event>
+    <event publicID="smi:local/b9f11bb7-9cb0-4277-b407-86babdb051b7">
+      <origin publicID="smi:local/e5a3676b-bb6d-4619-af90-e1f5a03ac620">
+        <time>
+          <value>2024-01-03T09:59:52.992000Z</value>
+        </time>
+        <latitude>
+          <value>6.86685</value>
+        </latitude>
+        <longitude>
+          <value>7.41742</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+        </depth>
+      </origin>
+    </event>
+    <event publicID="smi:local/40067608-c185-4e37-9899-63cffb71b714">
+      <origin publicID="smi:local/7742d72d-412b-4158-ad19-09d90bc1bba4">
+        <time>
+          <value>2024-01-03T11:00:06.056000Z</value>
+        </time>
+        <latitude>
+          <value>6.86685</value>
+        </latitude>
+        <longitude>
+          <value>7.41742</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+        </depth>
+      </origin>
+    </event>
+    <event publicID="smi:local/cfe1d3d3-de4d-4560-af2e-4d58c281400e">
+      <origin publicID="smi:local/7492c232-c2a0-4a74-abaf-1e4af3a520c8">
+        <time>
+          <value>2024-01-03T16:00:00.384000Z</value>
+        </time>
+        <latitude>
+          <value>6.86685</value>
+        </latitude>
+        <longitude>
+          <value>7.41742</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+        </depth>
+      </origin>
+    </event>
+    <event publicID="smi:local/ced46e2c-7c2a-4c6d-ad32-12a01ee7dd2f">
+      <origin publicID="smi:local/b5ff2f60-3603-4701-8bf1-57faa9217110">
+        <time>
+          <value>2024-01-10T00:58:42.772000Z</value>
+        </time>
+        <latitude>
+          <value>6.86685</value>
+        </latitude>
+        <longitude>
+          <value>7.41742</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+        </depth>
+      </origin>
+    </event>
+  </eventParameters>
+</q:quakeml>
