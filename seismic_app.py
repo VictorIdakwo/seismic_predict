@@ -48,9 +48,9 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Constants
-STATION_FILE = r"C:\Users\victor.idakwo\Documents\ehealth Africa\ehealth Africa\eHA GitHub\seismic Analytics\stations.csv"
-MODEL_PATH = r"C:\Users\victor.idakwo\Documents\ehealth Africa\ehealth Africa\eHA GitHub\seismic Analytics\magnitude_model.joblib"
+# Constants - Use relative paths for deployment
+STATION_FILE = os.path.join(os.path.dirname(__file__), "stations.csv")
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "magnitude_model.joblib")
 
 # Load station metadata
 @st.cache_data
