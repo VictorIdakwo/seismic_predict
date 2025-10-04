@@ -48,9 +48,9 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Constants - Use relative paths for deployment
-STATION_FILE = os.path.join(os.path.dirname(__file__), "stations.csv")
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "magnitude_model.joblib")
+# Constants - Use simple relative paths for deployment
+STATION_FILE = "stations.csv"
+MODEL_PATH = "magnitude_model.joblib"
 
 # Load station metadata
 @st.cache_data
@@ -341,7 +341,10 @@ def main():
     
     # Sidebar
     with st.sidebar:
-        st.image("https://img.icons8.com/fluency/96/earthquake.png", width=80)
+        try:
+            st.image("https://img.icons8.com/fluency/96/earthquake.png", width=80)
+        except:
+            pass  # Skip image if it fails to load
         st.title("⚙️ Configuration")
         
         # File upload
@@ -593,4 +596,8 @@ def main():
         st.exception(e)
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        st.error(f"Application Error: {str(e)}")
+        st.info("Please refresh the page or contact support if the issue persists.")
